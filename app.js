@@ -93,21 +93,6 @@ objItems.forEach(objItem => {
     span1.textContent = `Price: ${objItem.price} `
     span2.textContent = `Rating: ${objItem.rating} `
     span3.textContent = `Categoty: ${objItem.category} `
-
-    
-
-    division.addEventListener('click', () => {
-        console.log(objItem);
-
-        division.style.border = '2px solid #4caf50'
-
-        const unique = objItem.filter((obj, index) => {
-            return index === objItem.findIndex(o => obj.id === o.id);
-        });
-         
-        console.log(unique);
-        
-    })
     
 
     //append the paragraph to listObj
@@ -126,3 +111,23 @@ objItems.forEach(objItem => {
     
 }
 )
+
+const divs = document.querySelectorAll('.submain')
+
+for (const [index, div] of divs.entries() ) {
+    div.addEventListener('click', () => {
+        console.log(index);
+    
+        products.push(objItems[index])
+        console.log(products);
+        div.className = 'disabled'
+    
+        // const unique = objItems.filter((obj, index) => {
+        //     return index === objItems.findIndex(o => obj.id === o.id);
+        // });
+         
+        // console.log(unique);
+        
+    })
+}
+
