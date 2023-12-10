@@ -1,0 +1,44 @@
+*, *::after, *::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+html, body {
+    height: 100vh;
+    background-color: #fffffff5;
+}
+
+.main {
+    width: 50%;
+    margin: 0 auto;
+    transform: translateY(20%);
+    border: 1px solid #ccc;
+}
+
+.main ul {
+    list-style: none;
+    position: relative;
+    display: block;
+}
+
+.main ul li {
+    padding: .6em;
+}
+
+.main ul li .submain {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 0 .4em;
+}
+
+.product-name {
+    font-size: 3em;
+    color: #434343;
+}
+
+.status {
+    font-size: 1.4em;
+    margin-right: .2em;
+}
