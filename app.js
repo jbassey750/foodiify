@@ -15,7 +15,37 @@ const objItems = new Array({
     price: '10',
     rating: 5,
     category: 'food'
-},)
+},{
+    name: 'Ice cream',
+    id: 2,
+    price: '10',
+    rating: 5,
+    category: 'food'
+},{
+    name: 'Ice cream',
+    id: 2,
+    price: '10',
+    rating: 5,
+    category: 'food'
+},{
+    name: 'Ice cream',
+    id: 2,
+    price: '10',
+    rating: 5,
+    category: 'food'
+},{
+    name: 'Ice cream',
+    id: 2,
+    price: '10',
+    rating: 5,
+    category: 'food'
+},{
+    name: 'Ice cream',
+    id: 2,
+    price: '10',
+    rating: 5,
+    category: 'food'
+})
 
 const itembar = document.querySelector('.itembar');
 
@@ -116,18 +146,27 @@ const divs = document.querySelectorAll('.submain')
 
 for (const [index, div] of divs.entries() ) {
     div.addEventListener('click', () => {
-        console.log(index);
+        // console.log(index);
     
         products.push(objItems[index])
-        console.log(products);
+        // console.log(products);
+        console.log(products.length);
         div.className = 'disabled'
     
-        // const unique = objItems.filter((obj, index) => {
-        //     return index === objItems.findIndex(o => obj.id === o.id);
-        // });
-         
-        // console.log(unique);
+        document.querySelector('.product-pick').style.cssText = `background-color: #fbc606;
+        color: #fdfdfd;
+        border-radius: 4px;
+        padding: 2px 2px
+        `
+        document.querySelector('.product-pick').textContent = products.length   
         
-    })
+
+})
 }
 
+
+
+const now = new Date();
+const year = now.getFullYear();
+
+const data = document.querySelector('.datetime').textContent = `Copyright ${year} `
