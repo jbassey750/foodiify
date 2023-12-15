@@ -1,5 +1,7 @@
 import React from "react";
 import "./App.css"
+import { Link } from "react-router-dom"
+
 const Navbar = () => {
     return (
         <>
@@ -10,20 +12,20 @@ const Navbar = () => {
 
                 <nav>
                     <ul>
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/product">Products</a></li>
-                        <li><a href="/message">Message</a></li>
+                        <li><Link to="/">Home</Link></li>
+                        <li><Link to="/product">Products</Link></li>
+                        <li><Link to="/message">Message</Link></li>
                         <li>
-                            <a href="/Cart">cart</a>
+                            <Link to="/Cart">cart</Link>
                             <sub className="product-pick">0</sub>
                         </li>
                         <li className="profile">
-                            <a href="/Profile">
+                            <Link to="/Profile">
                                 <div className="active">
                                     <img src="./image/IMG_1681.JPG" alt="" />
                                     <div className="status"></div>
                                 </div>
-                            </a>
+                            </Link>
                         </li>
                     </ul>
                 </nav>
@@ -31,5 +33,4 @@ const Navbar = () => {
         </>
     )
 }
-
 export default Navbar

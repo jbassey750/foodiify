@@ -6,37 +6,22 @@ import Cart from './components/cart';
 import Products from './components/products';
 import Messsage from './components/message';
 import Profile from './components/profile';
+import { Route, Routes } from "react-router-dom"
 
 function App() {
   console.log(window.location);
-
-  let Page;
-
-  switch (window.location.pathname) {
-    case '/':
-      Page = <Home />
-      break
-    case '/Product':
-      Page = <Products />
-      break
-    case '/messsage':
-      Page = <Messsage />
-      break
-    case '/cart':
-      Page = <Cart />
-      break
-    case '/profile':
-      Page = <Profile />
-      break
-      default:
-        break
-  }
 
   return (
     <>
       <Navbar />
       <div className='container'>
-        { Page }
+        <Routes>
+          <Route path='/' element={ <Home /> } />
+          <Route path='/product' element={ <Products /> } />
+          <Route path='/message' element={ <Messsage /> } />
+          <Route path='/cart' element={ <Cart /> } />
+          <Route path='/profile' element={ <Profile /> } />
+        </Routes>
       </div>
     </>
   )
