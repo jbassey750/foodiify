@@ -9,7 +9,7 @@ import Profile from './components/profile';
 import { Route, Routes } from "react-router-dom"
 
 function App() {
-  console.log(window.location);
+  // console.log(window.location);
 
   return (
     <>

@@ -48,7 +48,7 @@ header {
   width: 100%;
   margin-bottom: .5em;
   z-index: 1;
-  background-color: transparent;
+  background-color: #fafafa;
   box-shadow: 0 4px 8px 0 rgba(208, 208, 208, 0.2), 0 6px 20px 0 rgba(114, 114, 114, 0.19);
 }
 
@@ -104,7 +104,12 @@ header nav ul li .active .status {
   position: absolute;
 }
 
-.main {
-  margin-top:  4em;
+.container {
+  margin-top:  6em;
   text-align: center;
+}
+
+img {
+  width: 200px;
+  height: 200px;
 }

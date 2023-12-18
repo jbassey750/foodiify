@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Cake",
+        "price": 100,
+        "id": 1,
+        "catrgory": "snack",
+        "rating": 5,
+        "image":  "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2009/4/5/1/IG1C17_30946_s4x3.jpg.rend.hgtvcom.1280.1280.suffix/1433541424559.jpeg"
+    },
+    {
+        "name": "Ice-cream",
+        "price": 100,
+        "id": 2,
+        "catrgory": "snack",
+        "rating": 5,
+        "image":  "https://africanmusings.com/wp-content/uploads/2021/11/from-the-us-russia-to-india-an-ice-cream-bowl-has-a-long-political-history.jpg"
+    },
+    {
+        "name": "Hot-dog",
+        "price": 100,
+        "id": 3,
+        "catrgory": "snack",
+        "rating": 5,
+        "image":  "https://hips.hearstapps.com/hmg-prod/images/big-mac-hotdog-7-1656099486.jpeg?crop=1xw:0.82801766437684xh;center,top&resize=1200:*"
+    }
+]

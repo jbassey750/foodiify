@@ -12,9 +12,9 @@ const Navbar = () => {
 
                 <nav>
                     <ul>
-                        <li><Link to="/">Home</Link></li>
-                        <li><Link to="/product">Products</Link></li>
-                        <li><Link to="/message">Message</Link></li>
+                        <CustomLink href='/'>Home</CustomLink>
+                        <CustomLink href='/product'>Products</CustomLink>
+                        <CustomLink href='/message'>Message</CustomLink>
                         <li>
                             <Link to="/Cart">cart</Link>
                             <sub className="product-pick">0</sub>
@@ -31,6 +31,14 @@ const Navbar = () => {
                 </nav>
             </header>
         </>
+    )
+}
+
+const CustomLink = ({href, children, ...props}) =>{
+    return (
+        <li>
+            <Link to={href}>{children}</Link>
+        </li>
     )
 }
 export default Navbar
