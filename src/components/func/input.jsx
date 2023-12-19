@@ -2,10 +2,14 @@ import React from "react"
 
 const Input = (props) => {
     return (
-        <form action="">
-            <input type="text" name="" id="" />
-            <input type="button" value="submit" />
-        </form>
+        <>
+            <form action="/">
+                <div className="search">
+                    <input type="search" name="" id="" />
+                </div>
+                <input type="submit" value="search" />
+            </form>
+        </>
     )
 }
 

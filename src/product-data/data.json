@@ -3,7 +3,7 @@
         "name": "Cake",
         "price": 100,
         "id": 1,
-        "catrgory": "snack",
+        "category": "snack",
         "rating": 5,
         "image":  "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2009/4/5/1/IG1C17_30946_s4x3.jpg.rend.hgtvcom.1280.1280.suffix/1433541424559.jpeg"
     },
@@ -11,7 +11,7 @@
         "name": "Ice-cream",
         "price": 100,
         "id": 2,
-        "catrgory": "snack",
+        "category": "snack",
         "rating": 5,
         "image":  "https://africanmusings.com/wp-content/uploads/2021/11/from-the-us-russia-to-india-an-ice-cream-bowl-has-a-long-political-history.jpg"
     },
@@ -19,8 +19,25 @@
         "name": "Hot-dog",
         "price": 100,
         "id": 3,
-        "catrgory": "snack",
+        "category": "snack",
         "rating": 5,
         "image":  "https://hips.hearstapps.com/hmg-prod/images/big-mac-hotdog-7-1656099486.jpeg?crop=1xw:0.82801766437684xh;center,top&resize=1200:*"
+    },
+    {
+        "name": "Dougnut",
+        "price": 100,
+        "id": 4,
+        "category": "snack",
+        "rating": 5,
+        "image":  "https://waracake.com/wp-content/uploads/2021/02/1354282f-0d40-4c13-a4d6-c8e85591d9c2-e1613461783861.jpg"
+    },
+    {
+        "name": "pizza",
+        "price": 100,
+        "id": 5,
+        "category": "snack",
+        "rating": 5,
+        "image":  "https://www.allrecipes.com/thmb/iXKYAl17eIEnvhLtb4WxM7wKqTc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/240376-homemade-pepperoni-pizza-Beauty-3x4-1-6ae54059c23348b3b9a703b6a3067a44.jpg"
     }
+
 ]
