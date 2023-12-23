@@ -8,43 +8,15 @@ const objItems = new Array({
     id: 1,
     price: '7',
     rating: 4.5,
-    category: 'food'
+    category: 'food',
+    image: './image/Best-Birthday-Cake-with-milk-chocolate-buttercream-SQUARE.webp',
 },{
     name: 'Ice cream',
     id: 2,
     price: '10',
     rating: 5,
-    category: 'food'
-},{
-    name: 'Ice cream',
-    id: 2,
-    price: '10',
-    rating: 5,
-    category: 'food'
-},{
-    name: 'Ice cream',
-    id: 2,
-    price: '10',
-    rating: 5,
-    category: 'food'
-},{
-    name: 'Ice cream',
-    id: 2,
-    price: '10',
-    rating: 5,
-    category: 'food'
-},{
-    name: 'Ice cream',
-    id: 2,
-    price: '10',
-    rating: 5,
-    category: 'food'
-},{
-    name: 'Ice cream',
-    id: 2,
-    price: '10',
-    rating: 5,
-    category: 'food'
+    category: 'food',
+    image: './image/ice-cream.jpg'
 })
 
 const itembar = document.querySelector('.itembar');
@@ -79,26 +51,7 @@ items.forEach(item => {
     // Optionally, you can push the created button element to the 'products' array
 });
 
-const removeDupliacte = (arrayObj, propertyName) => {
-    const newvalue = new Set()
-    return arrayObj.filter(obj => {
-        const value = obj[propertyName]
-        // console.log(value);
-        
-        if (!newvalue.has(value)) {
-            newvalue.add(value)
-            return true
-        }
-
-        return false
-    })
-}
-
-const result = removeDupliacte(objItems, 'name')
 // console.log(result);
-
-
-
 
 // adding obejct into html element
 objItems.forEach(objItem => {
@@ -115,6 +68,8 @@ objItems.forEach(objItem => {
     span3.className = 'status'
 
     division.className = 'submain'
+    // division.style.backgroundImage = objItem.productImage.src
+    console.log(objItem);
 
 
     paragraph.textContent = objItem.name
@@ -123,6 +78,12 @@ objItems.forEach(objItem => {
     span1.textContent = `Price: ${objItem.price} `
     span2.textContent = `Rating: ${objItem.rating} `
     span3.textContent = `Categoty: ${objItem.category} `
+
+    listObj.style.cssText = `background-image: url('./${objItem.image}');
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    background-position: left;
+    background-size: cover;`
     
 
     //append the paragraph to listObj
@@ -151,6 +112,7 @@ for (const [index, div] of divs.entries() ) {
         products.push(objItems[index])
         // console.log(products);
         console.log(products.length);
+        console.log(products);
         div.className = 'disabled'
     
         document.querySelector('.product-pick').style.cssText = `background-color: #fbc606;
@@ -163,6 +125,9 @@ for (const [index, div] of divs.entries() ) {
 
 })
 }
+
+
+
 
 
 

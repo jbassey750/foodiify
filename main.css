@@ -21,12 +21,15 @@ html, body {
   ::-webkit-scrollbar-track {
     box-shadow: inset 0 0 5px grey; 
     border-radius: 8px;
+    visibility: hidden;
   }
    
   /* Handle */
   ::-webkit-scrollbar-thumb {
     background: #e6e6e6; 
     border-radius: 10px;
+    visibility: hidden;
+    
   }
   
   /* Handle on hover */
@@ -109,8 +112,9 @@ header nav ul li .active .status {
     width: 50%;
     height: 80vh;
     margin: .7em auto;
+    padding: 0 5px;
     transform: translateY(15%);
-    border: 1px solid #ccc;
+    /* border: 1px solid #ccc; */
     overflow-y: scroll;
 }
 
@@ -118,7 +122,7 @@ header nav ul li .active .status {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: .4em .6em;
+    padding: 1.4em .2em;
 }
 
 .main form div.search {
@@ -133,7 +137,7 @@ input[type="search"] {
     outline: none;
     padding: .7em .3em;
     font-size: 1.3em;
-    width: 340px;
+    width: 29em;
 }
 
 input[type="submit"] {
@@ -156,17 +160,20 @@ input[type="submit"] {
 
 .main ul li {
     padding: .6em;
+    border: 1px solid #ccc;
+    margin-bottom: 1em;
 }
 
 .main ul li .submain {
-    border: 1px solid #ccc;
+   
     border-radius: 4px;
     padding: 0 .4em;
 }
 
 .product-name {
     font-size: 2em;
-    color: #434343;
+    color: #000000;
+    margin: 1em;
 }
 
 .status {
