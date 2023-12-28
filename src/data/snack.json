@@ -1,162 +1,142 @@
 [
   {
-    "Id": 1,
-    "Name": "Cake",
-    "Price": 20,
-    "Raing": 5,
-    "Category": "Snack",
-    "Image": "https://handletheheat.com/wp-content/uploads/2015/03/Best-Birthday-Cake-with-milk-chocolate-buttercream-SQUARE.jpg"
+    "id": 1,
+    "name": "Cake",
+    "price": 20,
+    "rating": 5,
+    "category": "Snack"
   },
   {
-    "Id": 2,
-    "Name": "Ice-cream",
-    "Price": 4,
-    "Raing": 4.5,
-    "Category": "Snack",
-    "Image": "https://joyfoodsunshine.com/wp-content/uploads/2020/06/homemade-chocolate-ice-cream-recipe-7.jpg"
+    "id": 2,
+    "name": "Ice-cream",
+    "price": 4,
+    "rating": 4.5,
+    "category": "Snack"
   },
   {
-    "Id": 3,
-    "Name": "Doughnuts ",
-    "Price": 2.3,
-    "Raing": 4.3,
-    "Category": "Snack",
-    "Image": "https://waracake.com/wp-content/uploads/2021/02/1354282f-0d40-4c13-a4d6-c8e85591d9c2-e1613461783861.jpg"
+    "id": 3,
+    "name": "Doughnuts ",
+    "price": 2.3,
+    "rating": 4.3,
+    "category": "Snack"
   },
   {
-    "Id": 4,
-    "Name": "Hot-dog",
-    "Price": 3.7,
-    "Raing": 5,
-    "Category": "Snack",
-    "Image": "https://hips.hearstapps.com/hmg-prod/images/big-mac-hotdog-7-1656099486.jpeg?crop=1xw:0.82801766437684xh;center,top&resize=1200:*"
+    "id": 4,
+    "name": "Hot-dog",
+    "price": 3.7,
+    "rating": 5,
+    "category": "Snack"
   },
   {
-    "Id": 5,
-    "Name": "Frencg fry",
-    "Price": 4,
-    "Raing": 5,
-    "Category": "Snack",
-    "Image": "https://www.allrecipes.com/thmb/JZsbJ8XNPxkbDk_hwHz-KI7nSKk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/219634-chef-johns-french-fries-DDMFS-4x3-338dec7976fc4d75bb3e2c18ff6a6e95.jpg"
+    "id": 5,
+    "name": "Frencg fry",
+    "price": 4,
+    "rating": 5,
+    "category": "Snack"
   },
   {
-    "Id": 6,
-    "Name": "Cookie",
-    "Price": 3.12,
-    "Raing": 5,
-    "Category": "Snack",
-    "Image": "https://handletheheat.com/wp-content/uploads/2020/10/BAKERY-STYLE-CHOCOLATE-CHIP-COOKIES-9-637x637-1-550x550.jpg"
+    "id": 6,
+    "name": "Cookie",
+    "price": 3.12,
+    "rating": 5,
+    "category": "Snack"
   },
   {
-    "Id": 7,
-    "Name": "Cookienut",
-    "Price": 3.5,
-    "Raing": 3.5,
-    "Category": "Snack",
-    "Image": "https://www.oatmealwithafork.com/wp-content/uploads/2018/03/plate-cookies1.jpg"
+    "id": 7,
+    "name": "Cookienut",
+    "price": 3.5,
+    "rating": 3.5,
+    "category": "Snack"
   },
   {
-    "Id": 8,
-    "Name": "Popcorn ",
-    "Price": 3,
-    "Raing": 4,
-    "Category": "Snack",
-    "Image": "https://tastythriftytimely.com/wp-content/uploads/2023/01/Stovetop-Popcorn-Featured.jpg"
+    "id": 8,
+    "name": "Popcorn ",
+    "price": 3,
+    "rating": 4,
+    "category": "Snack"
   },
   {
-    "Id": 9,
-    "Name": "Cheese",
-    "Price": 5,
-    "Raing": 5,
-    "Category": "Snack",
-    "Image": "https://i0.wp.com/post.healthline.com/wp-content/uploads/2022/04/swiss-cheese-1296x728-header.jpg?w=1155&h=1528"
+    "id": 9,
+    "name": "Cheese",
+    "price": 5,
+    "rating": 5,
+    "category": "Snack"
   },
   {
-    "Id": 10,
-    "Name": "Potato chips",
-    "Price": 5,
-    "Raing": 5,
-    "Category": "Snack",
-    "Image": "https://www.eatthis.com/wp-content/uploads/sites/4/2018/09/bowl-potato-chips.jpg?quality=82&strip=1"
+    "id": 10,
+    "name": "Potato chips",
+    "price": 5,
+    "rating": 5,
+    "category": "Snack"
   },
   {
-    "Id": 11,
-    "Name": "Pretzel",
-    "Price": 5,
-    "Raing": 5,
-    "Category": "Snack",
-    "Image": "https://static01.nyt.com/images/2023/04/14/multimedia/14PRETZELSREX-hvtc/13PRETZELSREX-hvtc-threeByTwoMediumAt2X.jpg"
+    "id": 11,
+    "name": "Pretzel",
+    "price": 5,
+    "rating": 5,
+    "category": "Snack"
   },
   {
-    "Id": 12,
-    "Name": "Deviled eggs",
-    "Price": 10,
-    "Raing": 5,
-    "Category": "Snack",
-    "Image": "https://static01.nyt.com/images/2021/10/15/dining/aw-classic-deviled-eggs/aw-classic-deviled-eggs-superJumbo.jpg"
+    "id": 12,
+    "name": "Deviled eggs",
+    "price": 10,
+    "rating": 5,
+    "category": "Snack"
   },
   {
-    "Id": 13,
-    "Name": "Cattage cheese",
-    "Price": 12,
-    "Raing": 5,
-    "Category": "Snack",
-    "Image": "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2022/05/How-to-make-cottage-cheese-11.jpg"
+    "id": 13,
+    "name": "Cattage cheese",
+    "price": 12,
+    "rating": 5,
+    "category": "Snack"
   },
   {
-    "Id": 14,
-    "Name": "Carot chip",
-    "Price": 7,
-    "Raing": 4.7,
-    "Category": "Snack",
-    "Image": "https://healthyrecipesblogs.com/wp-content/uploads/2016/06/carrot-chips-featured-2022.jpg"
+    "id": 14,
+    "name": "Carot chip",
+    "price": 7,
+    "rating": 4.7,
+    "category": "Snack"
   },
   {
-    "Id": 15,
-    "Name": "Bananas",
-    "Price": 9,
-    "Raing": 5,
-    "Category": "Snack",
-    "Image": "https://cdn-prod.medicalnewstoday.com/content/images/articles/271/271157/bananas-chopped-up-in-a-bowl.jpg"
+    "id": 15,
+    "name": "Bananas",
+    "price": 9,
+    "rating": 5,
+    "category": "Snack"
   },
   {
-    "Id": 16,
-    "Name": "Oatmeal",
-    "Price": 12,
-    "Raing": 5,
-    "Category": "Snack",
-    "Image": "https://hips.hearstapps.com/hmg-prod/images/porridge-with-berries-in-a-bowl-royalty-free-image-1651086873.jpg"
+    "id": 16,
+    "name": "Oatmeal",
+    "price": 12,
+    "rating": 5,
+    "category": "Snack"
   },
   {
-    "Id": 17,
-    "Name": "Hummus",
-    "Price": 15,
-    "Raing": 5,
-    "Category": "Snack",
-    "Image": "https://www.seriouseats.com/thmb/Y1y-PfXuk1swDWo3_CGtAmQ3c64=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/israeli-style-extra-smooth-hummus-recipe-hero-03_1-c5024cd79b3c4867899e96833dd2c251.JPG"
+    "id": 17,
+    "name": "Hummus",
+    "price": 15,
+    "rating": 5,
+    "category": "Snack"
   },
   {
-    "Id": 18,
-    "Name": "Peanuts",
-    "Price": 13,
-    "Raing": 5,
-    "Category": "Snack",
-    "Image": "https://fullofplants.com/wp-content/uploads/2021/09/Bacon-Flavored-Coated-Peanuts-vegan-crispy-snack-thumb-3.jpg"
+    "id": 18,
+    "name": "Peanuts",
+    "price": 13,
+    "rating": 5,
+    "category": "Snack"
   },
   {
-    "Id": 19,
-    "Name": "Crackers",
-    "Price": 2,
-    "Raing": 5,
-    "Category": "Snack",
-    "Image": "https://fantabulosity.com/wp-content/uploads/2019/07/Spicy-Ranch-Crackers-Recipe.jpg"
+    "id": 19,
+    "name": "Crackers",
+    "price": 2,
+    "rating": 5,
+    "category": "Snack"
   },
   {
-    "Id": 20,
-    "Name": "Yougurt",
-    "Price": 4,
-    "Raing": 5,
-    "Category": "Snack",
-    "Image": "https://www.seriouseats.com/thmb/W7HjvRJOBOMn7ly6F6lIOrE_JfY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2019__06__20190614-yogurt-vicky-wasik-8-1b8381eea1b44c17ac31879c11e6c624.jpg"
+    "id": 20,
+    "name": "Yougurt",
+    "price": 4,
+    "rating": 5,
+    "category": "Snack"
   }
 ]

@@ -1,0 +1,8 @@
+{{> head}}
+    <h1>Items</h1>
+    <ul>
+       {{#each links }}
+            <li><a href="/{{ this }}/food-api">{{ this }}</a></li>
+       {{/each}}
+    </ul>
+{{> foot}}

@@ -1,0 +1,60 @@
+{{> head}}
+<body>
+
+    <header>
+        <div class="logo">
+            <h1>Foodiify.</h1>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Products</a></li>
+                <li><a href="">Message</a></li>
+                <li>
+                    <a href="">cart</a>
+                    <sub class="counter">0</sub>
+                </li>
+                <li class="profile"><a href="">
+                    <div class="active">
+                        <img src="./public/image/IMG_1681.JPG" alt="">
+                        <div class="status"></div>
+                    </div>
+                </a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    
+    <div class="main">
+        <form action="/">
+            <div class="search">
+                <input type="search" name="" id="">
+            </div>
+            <input type="submit" value="search">
+        </form>
+        <ul class="objectProject">
+            <!-- dynamic -->
+        </ul>
+
+        <div class="pagination">
+            <ul class="arrow">
+                <li><a href="">
+                    <i class="fa-solid fa-arrow-left"></i>
+                </a></li>
+                <li><a href=""> 
+                    <i class="fa-solid fa-arrow-right"></i> 
+                </a></li>
+            </ul>
+        </div>
+
+        <footer>
+            <h2 class="datetime"></h2>
+        </footer>
+    </div>
+
+    <section>
+        
+    </section>
+    
+{{> foot}}
