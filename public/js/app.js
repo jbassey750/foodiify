@@ -38,27 +38,25 @@ fetch("http://localhost:3000/food-api")
     addProductToCartFunc();
   })
   .catch((err) => console.log("Could not fetch data"));
+
 function createProducts(products) {
-  const htmlString = products
-    .map(
-      (product) =>
-        `<li data-id=${product.id}>
-            <a class="links" href="#">
-                <div class="submain" >
-                    <p class="product-name">${product.name}</p>
-                    <span class="status">Price: ${product.price} </span>
-                    <span class="status">Rating: ${product.rating} </span>
-                    <span class="status">Category: ${product.category} </span>
-                </div>
-            </a>
-        </li>`
-    )
-    .reduce((productsString, prod) => productsString + prod, "");
+  products.forEach((product) => {
+    const html = `
+      <li data-id=${product.id}>
+        <a class="links" href="#">
+          <div class="submain" >
+            <p class="product-name">${product.name}</p>
+            <span class="status">Price: ${product.price} </span>
+            <span class="status">Rating: ${product.rating} </span>
+            <span class="status">Category: ${product.category} </span>
+          </div>
+        </a>
+      </li>`;
 
-  console.log(htmlString);
-
-  objectProject.insertAdjacentHTML("afterbegin", htmlString);
+    objectProject.insertAdjacentHTML("beforeend", html);
+  });
 }
+
 // objItems.forEach((objItem) => {
 //   // console.log('name: ' + objItem.name);
 //   const span1 = document.createElement("span");
